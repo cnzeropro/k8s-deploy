@@ -6,14 +6,13 @@ charset = utf-8
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
-
-# 编排与配置文件统一 2 空格
-[*.{yml,yaml,json,env,conf,cfg,ini,properties}]
 indent_style = space
 indent_size = 2
 
+[*.{yaml}]
+indent_size = 2
+
 [*.sh]
-indent_style = space
 indent_size = 2
 end_of_line = lf
 
